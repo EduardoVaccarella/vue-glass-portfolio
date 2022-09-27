@@ -37,12 +37,12 @@ export default {
 .container-fluid {
     background-color: rgb(0, 0, 0);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
 }
 .container {
     margin-top: 75px;
     min-height: 100vh;
     position: relative;
-    overflow-x: hidden;
 
     h4 {
         color: rgba(255, 255, 255, 0.25);

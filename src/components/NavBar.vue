@@ -1,6 +1,11 @@
 <template setup>
   <div class="container-fluid">
-    <div class="container justify-content-end justify-content-md-between">
+    <div id="ms_container2" class="container d-block d-md-none">
+        <div id="ms_title2" class="d-inline-block d-md-none" @click="counter">
+            Eduardo Vaccarella <div :class="count % 2 == 0 ? 'd-inline-block' : 'd-none'">&#9825;</div>
+        </div>
+    </div>
+    <div class="container justify-content-center justify-content-md-between pt-3 pt-md-0">
         <div class="ms_title d-none d-md-block col-1 col-md-3" @click="counter">
             Eduardo Vaccarella <div :class="count % 2 == 0 ? 'd-inline-block' : 'd-none'">&#9825;</div>
         </div>
@@ -14,10 +19,7 @@
             <div class="btn">
                 <a href="#contattami">Contattami</a>
             </div>
-            <span></span>
-            <div id="ms_title2" class="d-block d-md-none" @click="counter">
-                Eduardo Vaccarella <div :class="count % 2 == 0 ? 'd-inline-block' : 'd-none'">&#9825;</div>
-            </div>
+            <span class="d-none d-md-block"></span>
         </div>
     </div>
   </div>
@@ -41,8 +43,9 @@ export default {
 <style lang="scss" scoped>
 .container {
     display: flex;
-    align-items: center; 
+    align-items: center;
     position: relative;
+    padding-bottom: 75px;
 }
 
 .container:nth-child(1) {
@@ -77,11 +80,15 @@ export default {
     transition: ease-in-out 0.25s;
 }
 
-#ms_title2 {
-    position: absolute;
-    transform: rotate(5deg);
-    top: 120px;
-    right: 100px;
+#ms_container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+
+    #ms_title2 {
+        box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+    }
 }
 
 span {

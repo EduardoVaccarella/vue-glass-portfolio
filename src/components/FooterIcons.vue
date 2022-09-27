@@ -36,10 +36,6 @@
 </script>
 
 <style lang="scss" scoped>
-
-.container-fluid {
-    overflow-x: hidden;
-}
 .container {
     margin-top: 100px;
     height: 50px;

@@ -66,10 +66,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-.container-fluid {
-    overflow-x: hidden;
-}
+    
 .container {
     min-height: 30vh;
     position: relative;

@@ -16,6 +16,10 @@ body {
     overflow-x: hidden;
 }
 
+.container-fluid {
+  overflow-x: hidden;
+}
+
 ::-webkit-scrollbar {
     width: 15px;
   }

@@ -71,10 +71,6 @@ export default {
 
 <style lang="scss" scoped>
 
-.container-fluid {
-    overflow-x: hidden;
-}
-
 .container {
     display: flex;
     justify-content: center;
