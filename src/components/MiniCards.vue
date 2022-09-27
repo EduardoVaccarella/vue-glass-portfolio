@@ -4,7 +4,8 @@
             <ul class="d-flex justify-content-between align-items-center">
                 <li v-for="img in imgs" :key="img" class="col-4 col-sm-4 col-md-4 col-lg-1 d-flex justify-content-between align-items-center">
                     <div data-aos="fade-in" data-aos-duration="1000">
-                        <img :src="img.visual" :alt="img.alt">
+                        <!-- <img :src="img.visual" :alt="img.alt"> -->
+                        <img src="../../public/img/html.png" alt="">
                     </div>
                 </li>
             </ul>

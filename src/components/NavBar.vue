@@ -9,7 +9,7 @@
             <a href="#chi-sono">Chi sono</a>
             </div>
             <div class="btn">
-                <a href="#competenze">Competenze</a>
+                <a href="#competenze">Percorso</a>
             </div>
             <div class="btn">
                 <a href="#contattami">Contattami</a>
@@ -43,7 +43,6 @@ export default {
     display: flex;
     align-items: center; 
     position: relative;
-    min-height: 10vh;
 }
 
 .container:nth-child(1) {
