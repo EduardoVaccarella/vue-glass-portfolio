@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid pt-5 pt-lg-0">
         <div class="container pt-5 pt-lg-0">
-            <a :href="link" download>
+            <a href="../../public/img/EduardoVaccarellaCv.jpg" download>
                 CV
             </a>
 
@@ -15,15 +15,7 @@
     </div>
 </template>
 
-<script>
-
-export default {
-    data() {
-        return {
-            link: "../../public/img/EduardoVaccarellaCv.jpg"
-        }
-    }   
-}
+<script setup>
 
 </script>
 
