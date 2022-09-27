@@ -18,7 +18,7 @@
                     </a>
                 </div>
             </span>
-            <span id="contattami">
+            <span id="contattami" class="d-none d-sm-block">
 
             </span>
             <h4 class="d-none d-md-block">
@@ -37,6 +37,9 @@
 
 <style lang="scss" scoped>
 
+.container-fluid {
+    overflow-x: hidden;
+}
 .container {
     margin-top: 100px;
     height: 50px;

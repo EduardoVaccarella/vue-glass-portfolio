@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="container d-flex align-items-center" id="chi-sono">
             <div class="ms_card p-5 p-lg-3 d-lg-flex justify-content-between align-items-center">
-                <div class="ms_picture" data-aos="fade-up" data-aos-duration="750">
+                <div class="ms_picture mt-4 mt-sm-0" data-aos="fade-up" data-aos-duration="750">
                 
                 </div>
                 <div class="ms_content" data-aos="fade-up" data-aos-duration="750">
@@ -42,6 +42,7 @@ export default {
     margin-top: 75px;
     min-height: 100vh;
     position: relative;
+    overflow-x: hidden;
 
     h4 {
         color: rgba(255, 255, 255, 0.25);
@@ -60,13 +61,15 @@ export default {
 
     .ms_picture {
         border-radius: 8px;
-        width: 250px;
+        max-width: 250px;
+        width: 100%;
         height: 250px;
-        min-width: 250px;
-        min-height: 250px;
         margin: 0 auto;
         border-top: 1px solid rgba(255, 255, 255, 0.15);
         border-left: 1px solid rgba(255, 255, 255, 0.15);
+        background-image: url('../../public/img/FotoProfiloCv.png');
+        background-size: cover;
+        background-position: center;
     }
 
     .ms_content {
@@ -82,12 +85,6 @@ export default {
             text-align: justify;
         }
     }
-}
-
-
-.ms_picture {
-    background-image: url('../../public/img/FotoProfiloCv.png');
-    background-size: cover;
 }
 
 </style>

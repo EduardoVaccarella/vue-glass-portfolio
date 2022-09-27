@@ -1,5 +1,10 @@
 <template>
     <div class="container-fluid">
+        <div class="container">
+            <h4>
+                le mie competenze
+            </h4>
+        </div>
         <div class="container pb-5 pb">
             <ul class="d-flex justify-content-between align-items-center">
                 <li v-for="img in imgs" :key="img" class="col-4 col-sm-4 col-md-4 col-lg-1 d-flex justify-content-between align-items-center">
@@ -8,9 +13,6 @@
                     </div>
                 </li>
             </ul>
-            <h4>
-                le mie competenze
-            </h4>
         </div>
     </div>
 </template>
@@ -21,7 +23,7 @@ export default {
     data() {
         return {
             imgs: [{
-                visual: "/assets/html.e5987020.png",
+                visual: "../../public/img/html.png",
                 alt: "HTML5"
             },
             {
@@ -65,6 +67,9 @@ export default {
 
 <style lang="scss" scoped>
 
+.container-fluid {
+    overflow-x: hidden;
+}
 .container {
     min-height: 30vh;
     position: relative;
@@ -75,8 +80,8 @@ export default {
         font-size: 9px;
         letter-spacing: 2px;
         position: absolute;
-        top: -100px;
-        left: 50px;
+        left: 25px;
+        bottom: 50px;
         padding: 25px;
         font-weight: 300;
         transform: rotate(-10deg);
