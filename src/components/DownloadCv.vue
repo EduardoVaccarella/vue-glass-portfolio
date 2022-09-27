@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid pt-5 pt-lg-0">
-        <div class="container pt-5 pt-lg-0">
+        <div class="container pb-3">
             <a href="../../public/img/EduardoVaccarellaCv.jpg" download>
                 CV
             </a>
@@ -58,7 +58,7 @@
         font-size: 9px;
         letter-spacing: 2px;
         position: absolute;
-        top: -75px;
+        top: -65px;
         left: 14%;
         padding: 25px;
         font-weight: 300;
@@ -66,7 +66,7 @@
     }
 
     #ms_scarica {
-        top: -50px;
+        top: -75px;
         left: 0px;
     }
 }

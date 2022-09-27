@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <div class="container d-flex align-items-center" id="chi-sono">
-            <div class="ms_card p-5 p-lg-3 d-lg-flex justify-content-between align-items-center">
+            <div class="ms_card p-0 p-sm-5 p-lg-3 d-lg-flex justify-content-between align-items-center">
                 <div class="ms_picture mt-4 mt-sm-0" data-aos="fade-up" data-aos-duration="750">
                 
                 </div>
@@ -9,7 +9,7 @@
                     <h1 class="pt-4">
                         Junior Full Stack Web Developer
                     </h1>
-                    <p class="p-2 pr-lg-5 pl-lg-5 pb-lg-5 pt-lg-2">
+                    <p class="p-4 pr-lg-5 pl-lg-5 pb-lg-5 pt-lg-2">
                         Ciao! Sono Eduardo Vaccarella, ho 20 anni e vivo a Bari, in Puglia. Sin da piccolo ho mostrato propensione per le materie scientifiche e per il ragionamento logico-deduttivo; questo, insieme alla passione per l'innovazione tecnologica, ha portato alla scelta di un iter formativo in un settore in costante crescita, quello del Web Developing. Scorri per approfondire il mio percorso e le mie competenze ;)
                     </p>
                 </div>

@@ -5,7 +5,7 @@
             Eduardo Vaccarella <div :class="count % 2 == 0 ? 'd-inline-block' : 'd-none'">&#9825;</div>
         </div>
     </div>
-    <div class="container justify-content-center justify-content-md-between pt-3 pt-md-0">
+    <div class="container justify-content-center justify-content-md-between">
         <div class="ms_title d-none d-md-block col-1 col-md-3" @click="counter">
             Eduardo Vaccarella <div :class="count % 2 == 0 ? 'd-inline-block' : 'd-none'">&#9825;</div>
         </div>
@@ -208,7 +208,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 30px;

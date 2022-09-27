@@ -75,7 +75,7 @@
             justify-content: center;
             align-items: center;
             border-radius: 8px;
-            box-shadow: -10px -5px 35px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.2);
             background-color: #350048;
             position: relative;
             z-index: 2;

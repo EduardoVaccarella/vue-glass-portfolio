@@ -21,7 +21,8 @@
 <style lang="scss" scoped>
 
 .container {
-    min-height: 50vh;
+    min-height: 300px;
+    height: 44vh;
     display: flex;
     justify-content: center;
     align-items: center;
