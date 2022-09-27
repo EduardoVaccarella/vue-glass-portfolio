@@ -7,9 +7,49 @@
         </div>
         <div class="container pb-5 pb">
             <ul class="d-flex justify-content-between align-items-center">
-                <li v-for="img in imgs" :key="img" class="col-4 col-sm-4 col-md-4 col-lg-1 d-flex justify-content-between align-items-center">
+                <li class="col-4 col-sm-4 col-md-4 col-lg-1 d-flex justify-content-between align-items-center">
                     <div data-aos="fade-in" data-aos-duration="1000">
-                        <img :src="img.visual" :alt="img.alt">
+                        <img src="../../public/img/html.png">
+                    </div>
+                </li>
+                <li class="col-4 col-sm-4 col-md-4 col-lg-1 d-flex justify-content-between align-items-center">
+                    <div data-aos="fade-in" data-aos-duration="1000">
+                        <img src="../../public/img/css.png">
+                    </div>
+                </li>
+                <li class="col-4 col-sm-4 col-md-4 col-lg-1 d-flex justify-content-between align-items-center">
+                    <div data-aos="fade-in" data-aos-duration="1000">
+                        <img src="../../public/img/javascript.png">
+                    </div>
+                </li>
+                <li class="col-4 col-sm-4 col-md-4 col-lg-1 d-flex justify-content-between align-items-center">
+                    <div data-aos="fade-in" data-aos-duration="1000">
+                        <img src="../../public/img/vue.png">
+                    </div>
+                </li>
+                <li class="col-4 col-sm-4 col-md-4 col-lg-1 d-flex justify-content-between align-items-center">
+                    <div data-aos="fade-in" data-aos-duration="1000">
+                        <img src="../../public/img/sass.png">
+                    </div>
+                </li>
+                <li class="col-4 col-sm-4 col-md-4 col-lg-1 d-flex justify-content-between align-items-center">
+                    <div data-aos="fade-in" data-aos-duration="1000">
+                        <img src="../../public/img/sql.png">
+                    </div>
+                </li>
+                <li class="col-4 col-sm-4 col-md-4 col-lg-1 d-flex justify-content-between align-items-center">
+                    <div data-aos="fade-in" data-aos-duration="1000">
+                        <img src="../../public/img/mysql.png">
+                    </div>
+                </li>
+                <li class="col-4 col-sm-4 col-md-4 col-lg-1 d-flex justify-content-between align-items-center">
+                    <div data-aos="fade-in" data-aos-duration="1000">
+                        <img src="../../public/img/php.png">
+                    </div>
+                </li>
+                <li class="col-4 col-sm-4 col-md-4 col-lg-1 d-flex justify-content-between align-items-center">
+                    <div data-aos="fade-in" data-aos-duration="1000">
+                        <img src="../../public/img/laravel.png">
                     </div>
                 </li>
             </ul>
@@ -17,51 +57,7 @@
     </div>
 </template>
 
-<script>
-
-export default {
-    data() {
-        return {
-            imgs: [{
-                visual: "../../public/img/html.png",
-                alt: "HTML5"
-            },
-            {
-                visual: "../../public/img/css.png",
-                alt: "CSS3"
-            },
-            {
-                visual: "../../public/img/javascript.png",
-                alt: "JavaScript"
-            },
-            {
-                visual: "../../public/img/vue.png",
-                alt: "Vue.Js"
-            },
-            {
-                visual: "../../public/img/sass.png",
-                alt: "SASS"
-            },
-            {
-                visual: "../../public/img/sql.png",
-                alt: "SQL"
-            },
-            {
-                visual: "../../public/img/mysql.png",
-                alt: "MySQL"
-            },
-            {
-                visual: "../../public/img/php.png",
-                alt: "PHP"
-            },
-            {
-                visual: "../../public/img/laravel.png",
-                alt: "Laravel"
-            }
-        ]
-        }
-    }   
-}
+<script setup>
 
 </script>
 
