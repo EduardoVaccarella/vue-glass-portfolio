@@ -99,7 +99,7 @@
             width: 95%;
             height: 70px;
             bottom: 0;
-            box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
             border-top: 1px solid rgba(255, 255, 255, 0.05);
             border-left: 1px solid rgba(255, 255, 255, 0.05);
             padding: 5px 10px;

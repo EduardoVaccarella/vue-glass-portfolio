@@ -17,7 +17,7 @@
                 <a href="#competenze">Percorso</a>
             </div>
             <div class="btn">
-                <a href="#contattami">Contattami</a>
+                <a href="#contattami-anchor">Contattami</a>
             </div>
             <span class="d-none d-md-block"></span>
         </div>

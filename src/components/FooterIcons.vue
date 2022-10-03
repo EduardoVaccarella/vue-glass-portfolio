@@ -7,7 +7,7 @@
                         <font-awesome-icon icon="fa-brands fa-linkedin-in" />
                     </a>
                 </div>
-                <div>
+                <div id="contattami-anchor">
                     <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=eduardo0vaccarella@gmail.com">
                         <font-awesome-icon icon="fa-solid fa-envelope" />
                     </a>
