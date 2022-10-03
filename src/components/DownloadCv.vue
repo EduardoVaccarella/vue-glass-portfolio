@@ -1,10 +1,9 @@
 <template>
     <div class="container-fluid pt-5 pt-lg-0">
         <div class="container pb-3">
-            <a href="../../public/img/EduardoVaccarellaCv.png" download>
+            <a href="https://drive.google.com/uc?export=download&id=1czJEC2AXgGE7C7BFvArqjkA2KS-Fh89D">
                 CV
             </a>
-
             <h4 class="d-none d-md-block">
                 scarica il mio cv
             </h4>
