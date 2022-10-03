@@ -69,7 +69,7 @@
     padding: 40px 0;
 
     h4 {
-        color: rgba(255, 255, 255, 0.25);
+        color: rgba(255, 255, 255, 0.4);
         font-size: 9px;
         letter-spacing: 2px;
         position: absolute;
