@@ -4,8 +4,8 @@
     <AnimatedHeader />
     <AboutMe />
     <AnimatedCards />
-    <!-- <MiniCards /> -->
-    <MiniCardsLoop />
+    <MiniCards />
+    <!-- <MiniCardsLoop /> -->
     <DownloadCv />
     <FooterIcons />
   </div>

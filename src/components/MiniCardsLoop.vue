@@ -27,7 +27,7 @@ export default {
                 alt: "HTML5"
             },
             {
-                visual: "../../dist/assets/css.png",
+                visual: "../../public/img/css.png",
                 alt: "CSS3"
             },
             {
