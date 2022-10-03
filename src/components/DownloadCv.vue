@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid pt-5 pt-lg-0">
         <div class="container pb-3">
-            <a href="../../public/img/EduardoVaccarellaCv.jpg" download>
+            <a href="../../public/img/EduardoVaccarellaCv.png" download>
                 CV
             </a>
 
