@@ -34,7 +34,6 @@
         align-items: center;
         border-radius: 8px;
         letter-spacing: 2px;
-        background-color: #350048;
         position: relative;
         z-index: 2;
         top: -25px;

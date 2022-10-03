@@ -109,7 +109,6 @@
                     align-items: center;
                     border-radius: 8px;
                     box-shadow: -10px -5px 35px rgba(0, 0, 0, 0.1);
-                    background-color: #350048;
                     z-index: 2;
                     top: -44px;
                     border-top: 1px solid rgba(255, 255, 255, 0.05);

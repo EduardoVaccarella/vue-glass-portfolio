@@ -50,12 +50,10 @@ export default {
 
 .container:nth-child(1) {
     text-align: center;
-    background-color: #350048;
 }
 
 .container:nth-child(2) {
     text-align: center;
-    background-color: #350048;
 }
 
 .ms_title, #ms_title2 {
@@ -103,7 +101,6 @@ span {
     border-radius: 8px;
     z-index: 0;
     transform: rotate(5deg);
-    background-color: #350048;
 }
 
 .btn {
