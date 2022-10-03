@@ -78,6 +78,7 @@
             background: linear-gradient(#ffffff5f 0%, #ffffff4f 10%, #ffffff2d 50%, #ffffff18 100%);
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
             backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: blur(40px);
             animation: animate 6s ease-in-out infinite;
             z-index: 4;
         }
@@ -104,6 +105,7 @@
         span:nth-child(3) {
             background: rgba(0, 0, 0, 0.5);
             backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
             z-index: 5;
             width: 10px;
             height: 10px;
@@ -141,6 +143,7 @@
             background: linear-gradient(rgba(100, 100, 100, 0.75), rgba(125, 125, 125, 0.75));
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
             backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
             z-index: 5;
             width: 15px;
             height: 10px;
@@ -156,6 +159,7 @@
             background: linear-gradient(rgba(125, 125, 125, 0.75), rgba(100, 100, 100, 0.75));
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
             backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
             z-index: 5;
             width: 15px;
             height: 10px;

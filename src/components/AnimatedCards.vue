@@ -243,6 +243,7 @@ export default {
         transform: skewX(15deg);
         transition: 0.5s;
         filter: blur(30px);
+        -webkit-filter: blur(30px);
     }
 
     .ms_card:hover:before,
@@ -273,11 +274,13 @@ export default {
     .ms_card:nth-child(2):hover:after {
         height: 100%;
         transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
     }
 
     .ms_card:nth-child(3):hover:before,
     .ms_card:nth-child(3):hover:after {
         transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
     }
 }
 
