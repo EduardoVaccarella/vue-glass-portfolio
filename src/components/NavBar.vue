@@ -1,7 +1,7 @@
 <template setup>
   <div class="container-fluid">
     <div id="ms_container2" class="container d-block d-md-none">
-        <div id="ms_title2" class="d-inline-block d-md-none" @click="counter">
+        <div id="ms_title2" class="d-inline-block d-md-none mb-5 mb-sm-3" @click="counter">
             Eduardo Vaccarella <div :class="count % 2 == 0 ? 'd-inline-block' : 'd-none'">&#9825;</div>
         </div>
     </div>
