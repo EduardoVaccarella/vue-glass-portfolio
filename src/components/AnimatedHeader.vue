@@ -60,6 +60,7 @@
             background: linear-gradient(#67e9b9 10%, #007b4e 50%, #00124e 100%);
             transform: rotate(45deg);
             filter: blur(20px);
+            -webkit-filter: blur(20px);
             z-index: 2;
         }
         span:nth-child(1):after {
@@ -71,6 +72,7 @@
             background: rgba(0, 0, 0, 0.250);
             bottom: -20%;
             filter: blur(20px);
+            -webkit-filter: blur(20px);
             z-index: -1;
         }
 
@@ -78,7 +80,7 @@
             background: linear-gradient(#ffffff5f 0%, #ffffff4f 10%, #ffffff2d 50%, #ffffff18 100%);
             box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
             backdrop-filter: blur(40px);
-            -webkit-backdrop-filter: blur(40px);
+            -webkit-backdrop-filter: blur(20px);
             animation: animate 6s ease-in-out infinite;
             z-index: 4;
         }
