@@ -4,7 +4,8 @@
     <AnimatedHeader />
     <AboutMe />
     <AnimatedCards />
-    <MiniCards />
+    <!-- <MiniCards /> -->
+    <MiniCardsLoop />
     <DownloadCv />
     <FooterIcons />
   </div>
@@ -15,9 +16,10 @@ import NavBar from './components/NavBar.vue';
 import AboutMe from './components/AboutMe.vue';
 import AnimatedCards from './components/AnimatedCards.vue';
 import AnimatedHeader from './components/AnimatedHeader.vue';
-import MiniCards from './components/MiniCards.vue';
+import MiniCards from './components/MiniCardsLoop.vue';
 import FooterIcons from './components/FooterIcons.vue';
 import DownloadCv from './components/DownloadCv.vue';
+import MiniCardsLoop from './components/MiniCardsLoop.vue';
 
 export default {
   name: 'App',
@@ -28,7 +30,8 @@ export default {
     AnimatedHeader,
     MiniCards,
     FooterIcons,
-    DownloadCv
+    DownloadCv,
+    MiniCardsLoop
 }
 }
 </script>
