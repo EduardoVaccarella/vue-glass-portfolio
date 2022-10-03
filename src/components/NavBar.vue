@@ -215,6 +215,7 @@ a {
     font-weight: 400;
     overflow: hidden;
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     transition: 0.5s;
 }
 

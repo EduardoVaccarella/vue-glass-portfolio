@@ -123,6 +123,7 @@ export default {
             border-radius: 8px;
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
             opacity: 0;
             transition: 0.5s;
             animation: animate 2s ease-out infinite;
@@ -139,6 +140,7 @@ export default {
             border-radius: 8px;
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
             opacity: 0;
             transition: 0.5s;
             animation: animate 2s ease-out infinite;
@@ -155,6 +157,7 @@ export default {
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             backdrop-filter: blur(50px);
+            -webkit-backdrop-filter: blur(50px);
             transition: 0.5s;
             color: rgba(255, 255, 255, 0.5);
 
