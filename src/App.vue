@@ -32,7 +32,7 @@ export default {
     FooterIcons,
     DownloadCv,
     MiniCardsLoop
-}
+  }
 }
 </script>
 
