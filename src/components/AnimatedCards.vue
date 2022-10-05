@@ -76,7 +76,7 @@ export default {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 100px 0;
+    padding-top: 100px;
     position: relative;
     min-height: 70vh;
 
