@@ -253,6 +253,8 @@ export default {
         transform: skewX(0deg);
         left: 20px;
         width: calc(100% - 90px);
+        -webkit-backface-visibility: hidden;
+        -webkit-transform: translate3d(0, 0, 0);
     }
 
     .ms_card:nth-child(1):before,
@@ -277,12 +279,16 @@ export default {
         height: 100%;
         transform: skewX(0deg);
         -webkit-transform: skewX(0deg);
+        -webkit-backface-visibility: hidden;
+        -webkit-transform: translate3d(0, 0, 0);
     }
 
     .ms_card:nth-child(3):hover:before,
     .ms_card:nth-child(3):hover:after {
         transform: skewX(0deg);
         -webkit-transform: skewX(0deg);
+        -webkit-backface-visibility: hidden;
+        -webkit-transform: translate3d(0, 0, 0);
     }
 }
 
