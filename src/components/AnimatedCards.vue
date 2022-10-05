@@ -77,6 +77,8 @@ export default {
     align-items: center;
     flex-wrap: wrap;
     padding-top: 100px;
+    padding-left: 0;
+    padding-right: 0;
     position: relative;
     min-height: 70vh;
 
